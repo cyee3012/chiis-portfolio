@@ -1,8 +1,7 @@
-- name: Some product
-  description: Some description
-  image: some_product.png
-  url: the url
-  tags:
+- name: Intern Up
+  description: Marketplace site connecting start ups offering internships to graduates looking to intern.
+  image: internup.png
+  url: internup.herokuapp.com
 
 - name: Other product
   image: other_product.png
