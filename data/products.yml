@@ -13,3 +13,10 @@
   image3: assets/images/internup3.png
   url: https://internup.herokuapp.com/
 
+- name: Spirits and Stuff
+  description: A website for your cocktail recipes.
+  image1: assets/images/sns1.png
+  image2: assets/images/sns2.png
+  image3: assets/images/sns3.png
+  image4: assets/images/sns4.png
+  url: https://spirits-and-stuff.herokuapp.com/
