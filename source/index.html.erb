@@ -4,6 +4,7 @@
   <div class="short-bio col">
     <h1>CHING-YEE LAW</h1>
     <h2>FRONTEND DEVELOPER | ALSO KNOWN AS <strong>CHII</strong></h2>
+    <p>google "cyee2012" to find me elsewehere...or click on the icons below</p>
     <div class="social-icons">
       <a href="https://www.linkedin.com/in/cyee3012/"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/cyee3012/"><i class="fab fa-github-alt"></i></a>
@@ -11,15 +12,24 @@
     </div>
   </div>
 </div>
-
+<br>
 <div class="container">
   <div class="justify-content-center">
-
-    <div class="col">
+    <div class=" projects col">
+      <h2>PROJECTS</h2>
       <% data.products.each_with_index do | product, index|  %>
-       <!--  <li class="nav-item" role="Projects">
-          <%= product.name %> <%= product.description %>
-        </li> -->
+       <ul class="nav-item" role="Projects">
+          <h3><%= product.name %> <a href="<%= product.url %>"><i class="fas fa-external-link-alt"></i></a></h3>
+          <p><%= product.description %></p>
+          <div class="images">
+            <img src="<%= product.image1 %>">
+            <img src="<%= product.image2 %>">
+            <img src="<%= product.image3 %>">
+            <% if product.image4? %>
+              <img src="<%= product.image4 %>">
+            <% end %>
+          </div>
+        </ul>
       <% end %>
 
     </div>
