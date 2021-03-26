@@ -1,9 +1,10 @@
 .projects {
 
   h2 {
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Lexend', sans-serif;
     font-weight: bold;
+    text-shadow: 2px 2px #FFD6D6;
   }
 
   h3 {
@@ -37,7 +38,7 @@
       flex-grow: 1;
       width: 1px;
       margin: 5px;
-      box-shadow: 1px 1px 0px #B80000;
+      box-shadow: 3px 3px 0px #FFD6D6;
       border-style: solid;
       border-width: 0.5px;
     }
