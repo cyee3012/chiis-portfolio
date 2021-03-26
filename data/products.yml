@@ -1,7 +1,15 @@
+- name: croppi
+  description: Mobile app that helps your friends become better photographers
+  image1: assets/images/croppi1.jpg
+  image2: assets/images/croppi2.jpg
+  image3: assets/images/croppi3.jpg
+  image4: assets/images/croppi4.jpg
+  url: https://www.croppi-app.com/
+
 - name: Intern Up
   description: Marketplace site connecting start ups offering internships to graduates looking to intern.
-  image: internup.png
-  url: internup.herokuapp.com
+  image1: assets/images/internup1.png
+  image2: assets/images/internup2.png
+  image3: assets/images/internup3.png
+  url: https://internup.herokuapp.com/
 
-- name: Other product
-  image: other_product.png
