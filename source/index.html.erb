@@ -16,21 +16,25 @@
 <div class="container">
   <div class="justify-content-center">
     <div class=" projects col">
-      <h2>PROJECTS</h2>
-      <% data.products.each_with_index do | product, index|  %>
-       <ul class="nav-item" role="Projects">
-          <h3><%= product.name %> <a href="<%= product.url %>"><i class="fas fa-external-link-alt"></i></a></h3>
-          <p><%= product.description %></p>
-          <div class="images">
-            <img id="project-img" src="<%= product.image1 %>">
-            <img id="project-img" src="<%= product.image2 %>">
-            <img id="project-img" src="<%= product.image3 %>">
-            <% if product.image4? %>
-              <img id="project-img" src="<%= product.image4 %>">
-            <% end %>
-          </div>
-        </ul>
-      <% end %>
+      <div class="project-header">
+        <h2>&#x25B8; <i class="far fa-folder"></i> PROJECTS</h2>
+      </div>
+      <div class="project-list">
+        <% data.products.each_with_index do | product, index|  %>
+         <ul class="nav-item" role="Projects">
+            <h3><i class="far fa-file"></i> <%= product.name %> <a href="<%= product.url %>"><i class="fas fa-external-link-alt"></i></a></h3>
+            <p><%= product.description %></p>
+            <div class="images">
+              <img id="project-img" src="<%= product.image1 %>">
+              <img id="project-img" src="<%= product.image2 %>">
+              <img id="project-img" src="<%= product.image3 %>">
+              <% if product.image4? %>
+                <img id="project-img" src="<%= product.image4 %>">
+              <% end %>
+            </div>
+          </ul>
+        <% end %>
+      </div>
     </div>
     <p>You've reached the bottom of my site. Just wanted to add some text because I felt like something was missing down here. Are you still reading? Wow...well thank you for making it this far and visiting! </p>
   </div>
