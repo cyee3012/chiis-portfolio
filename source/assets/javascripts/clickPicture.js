@@ -5,11 +5,16 @@
 const imgs = document.querySelectorAll('#project-img');
 const modal = document.querySelector('#myModal');
 const modalImg = document.querySelector('#img');
+const close = document.querySelector('.close');
 
 imgs.forEach((image) => {
   image.addEventListener('click', (event) => {
     const elem = event.target;
-    modal.style.display = "block";
+    modal.style.display = 'block';
     modalImg.src = elem.src;
   });
+});
+
+close.addEventListener('click', () => {
+  modal.style.display = 'none';
 });
