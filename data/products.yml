@@ -1,3 +1,4 @@
+
 - name: croppi
   description: Mobile app that helps your friends become better photographers
   image1: assets/images/croppi1.jpg
@@ -5,6 +6,12 @@
   image3: assets/images/croppi3.jpg
   image4: assets/images/croppi4.jpg
   url: https://www.croppi-app.com/
+
+- name: Dot Game
+  description: A simple Javascript game. Click the dots to earn points!
+  image1: assets/images/dot1.png
+  image2: assets/images/dot2.png
+  url: https://clickthedot.glitch.me/
 
 - name: Intern Up
   description: Marketplace site connecting start ups offering internships to graduates looking to intern.
