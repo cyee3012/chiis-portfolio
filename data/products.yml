@@ -13,6 +13,13 @@
   image2: assets/images/dot2.png
   url: https://clickthedot.glitch.me/
 
+- name: Giphy Search
+  description: A site made with React. Type in a keyword to find cool gifs!
+  image1: assets/images/giphy1.png
+  image2: assets/images/giphy2.png
+  image3: assets/images/giphy3.png
+  url: https://search-cool-gifs.netlify.app/
+
 - name: Intern Up
   description: Marketplace site connecting start ups offering internships to graduates looking to intern.
   image1: assets/images/internup1.png
