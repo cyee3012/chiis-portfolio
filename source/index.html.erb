@@ -3,7 +3,7 @@
     <h1>&#x25BE; <i class="far fa-folder-open"></i> CHING-YEE LAW</h1>
     <h2>&nbsp; &nbsp;<i class="far fa-address-card"></i> FRONTEND DEVELOPER | ALSO KNOWN AS <strong>CHII</strong></h2>
     <h4>&#x25BE; <i class="far fa-folder-open"></i> RESUME</h4>
-    <p>&ensp; &ensp;<i class="far fa-file"></i> chiis_cv.pdf <a href="https://res.cloudinary.com/cyee3012/image/upload/v1625236813/Chii_Law_s_CV_zutcmr.png"><i class="fas fa-external-link-alt"></i></a></p>
+    <p>&ensp; &ensp;<i class="far fa-file"></i> chiis_cv.pdf <a href="assets/images/chii_laws_cv.pdf"><i class="fas fa-external-link-alt"></i></a></p>
   </div>
 </div>
 <br>
@@ -16,7 +16,7 @@
       <div class="project-list">
         <% data.products.each_with_index do | product, index|  %>
          <ul class="nav-item" role="Projects">
-            <h3><i class="far fa-file"></i> <%= product.name %> <a href="<%= product.url %>"><i class="fas fa-external-link-alt"></i></a></h3>
+            <h3><i class="far fa-file"></i> <%= product.name %> <!-- <a href="<%= product.url %>"><i class="fas fa-external-link-alt"></i></a> --></h3>
             <p><%= product.description %></p>
             <div class="images">
               <img id="project-img" src="<%= product.image1 %>">
