@@ -1,17 +1,28 @@
 
 - name: croppi
-  description: Mobile app that helps your friends become better photographers
+  description: Mobile app that helps your friends become better photographers // Ruby on Rails, Javascript, CSS, HTML, Heroku
   image1: assets/images/croppi1.jpg
   image2: assets/images/croppi2.jpg
   image3: assets/images/croppi3.jpg
   image4: assets/images/croppi4.jpg
-  url: https://www.croppi-app.com/
 
 - name: Dot Game
-  description: A simple Javascript game. Click the dots to earn points!
+  description: A simple Javascript game. Click the dots to earn points // Javascript, CSS, HTML
   image1: assets/images/dot1.png
   image2: assets/images/dot2.png
-  url: https://clickthedot.glitch.me/
+
+- name: Stacked
+  description: Log in to share and view stories published by yourself and others // React, Express.js, Postgres, CSS, HTML, AWS, JWT
+  image1: assets/images/stacked1.png
+  image2: assets/images/stacked2.png
+  image3: assets/images/stacked3.png
+  image4: assets/images/stacked4.png
+
+- name: Giphy Search
+  description: A site made with React. Type in a keyword to find cool gifs // React.js, CSS, HTML
+  image1: assets/images/giphy1.png
+  image2: assets/images/giphy2.png
+  image3: assets/images/giphy3.png
 
 - name: Giphy Search
   description: A site made with React. Type in a keyword to find cool gifs!
@@ -21,16 +32,14 @@
   url: https://search-cool-gifs.netlify.app/
 
 - name: Intern Up
-  description: Marketplace site connecting start ups offering internships to graduates looking to intern.
+  description: Marketplace site connecting start ups offering internships to graduates looking to intern //Ruby on Rails, Javascript, CSS, HTML, Heroku
   image1: assets/images/internup1.png
   image2: assets/images/internup2.png
   image3: assets/images/internup3.png
-  url: https://internup.herokuapp.com/
 
 - name: Spirits and Stuff
-  description: A website for your cocktail recipes.
+  description: A website for your cocktail recipes // Ruby on Rails, Javascript, CSS, HTML, Heroku
   image1: assets/images/sns1.png
   image2: assets/images/sns2.png
   image3: assets/images/sns3.png
   image4: assets/images/sns4.png
-  url: https://spirits-and-stuff.herokuapp.com/
